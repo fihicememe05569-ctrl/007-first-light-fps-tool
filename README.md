@@ -3,6 +3,8 @@
 ![banner](https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/banner.png)
 
 
+
+
 [![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://shields.io/)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://shields.io/)
 
@@ -72,6 +74,6 @@ Alex
 
 ## Screenshots
 
-| App | Installer |
-|-----|-----------|
-| ![](https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_app.png) | ![](https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_installer.png) |
+| Main App | Installer |
+|----------|-----------|
+| ![app](https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_app.png) | ![installer](https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_installer.png) |
