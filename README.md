@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/banner.png" alt="007 First Light Performance Optimizer" width="100%">
+</div>
+
+<div align="center">
 
 # 🔫 007 First Light — Performance Optimizer
 
