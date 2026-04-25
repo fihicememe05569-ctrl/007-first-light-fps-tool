@@ -40,6 +40,19 @@ Tested on: Windows 10 / Windows 11 | NVIDIA & AMD GPUs | Intel & AMD CPUs
 
 ---
 
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_main.png" alt="007 First Light FPS Tool — Main Dashboard" width="48%">
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_installing.png" alt="007 First Light FPS Tool — Installation" width="48%">
+</div>
+
+<p align="center"><i>Left: Main optimization dashboard &nbsp;|&nbsp; Right: Installation wizard</i></p>
+
 ## 📥 Installation
 
 1. Download latest ZIP
