@@ -74,7 +74,7 @@ Alex
 ## Screenshots
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_app.png" width="48%">
-<img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_installer.png" width="48%">
+  <img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_app.png" alt="App Screenshot" width="48%">
+  <img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_installer.png" alt="Installer" width="48%">
 </div>
 
