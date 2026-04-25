@@ -1,5 +1,8 @@
 # 007FL-FPS 🕶️🎮
 
+![banner](https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/banner.png)
+
+
 [![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://shields.io/)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://shields.io/)
 
@@ -66,10 +69,9 @@ Licensed under the MIT License. See [LICENSE](LICENSE.txt) for more details.
 Cheers for checking out 007FL-FPS. If you find any bugs or have any suggestions, just open an issue or drop me a message. Let’s make 007 First Light as smooth as James Bond himself. 🕵️ Stay awesome!
 
 Alex
+
 ## Screenshots
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_app.png" alt="App Screenshot" width="48%">
-  <img src="https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_installer.png" alt="Installer" width="48%">
-</div>
-
+| App | Installer |
+|-----|-----------|
+| ![](https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_app.png) | ![](https://raw.githubusercontent.com/fihicememe05569-ctrl/007-first-light-fps-tool/main/assets/screenshot_installer.png) |
