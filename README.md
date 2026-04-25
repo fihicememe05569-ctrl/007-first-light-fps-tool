@@ -1,4 +1,3 @@
-```markdown
 # 007FL-FPS 🕶️🎮
 
 [![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://shields.io/)
@@ -67,10 +66,6 @@ Licensed under the MIT License. See [LICENSE](LICENSE.txt) for more details.
 Cheers for checking out 007FL-FPS. If you find any bugs or have any suggestions, just open an issue or drop me a message. Let’s make 007 First Light as smooth as James Bond himself. 🕵️ Stay awesome!
 
 Alex
-```
-
-
-
 ## Screenshots
 
 <div align="center">
